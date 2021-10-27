@@ -1,1 +1,912 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="author" content="Michael Amadi, Mgreg, Mgregchi, Itismgreg, Itismgregchi"/>
+    <meta name="owner" content="Michael Amadi, Mgreg, Mgregchi, Itismgreg, Itismgregchi"/>
+    <meta name="description" content="Personal webiste, portfolio and blog of Michael Amadi,
+      Mgreg, Mgregchi, Itismgreg, Itismgregchi
+      Technology gist, software source codes and help."
+    />
+    <meta name="publisher" content="Michael Amadi, Mgreg, Mgregchi, Itismgreg, Itismgregchi"/>
+    <meta name="creator" content="Michael Amadi, Mgreg, Mgregchi, Itismgreg, Itismgregchi"/>
+    <meta name="referrer"/>
+    <meta name="keywords" content="Michael Amadi, Mgreg, Mgregchi, Itismgreg, Itismgregchi
+      software, programmer, build my website, mgre Personal portfolio website,
+      github users, Learn computer programming, Hire a computer programmer,Hire a software developer"
+    />
+    <meta name="email" content="info@mgregchi.tk, mgregchi@gmail.com"/>
+    <meta name="hostedOn" content="Bla bla bla!"/>
+    <title>Michael Amadi (Mgregchi)</title>
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="white">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)"  content="black">    
+    <link rel="icon" href="./img/icon.bmp" type="image/x-icon" />
+    <link rel="manifest" href="./storage/manifest.json">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <!--link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" /-->
+    <!-- MDB DARK-->
+    <!--link rel="stylesheet" href="css/mdb.dark.min.css" /-->
+    <!--MDB-->
+    <link rel="stylesheet" href="css/mdb.min.css" id="style"/>
+    <!-- Custom styles -->
+    <!--link rel="stylesheet" href="css/style.css" /-->
+    <!--tags.json-->
+    <script src="js/sw.js"></script>
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-NRKJTPK');</script>
+      <!-- End Google Tag Manager -->
+</head>
+<body>
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NRKJTPK"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->  
+      <!--Main Navigation-->
+  <header>
+    <!-- Intro settings -->
+    <style>
+      /* Default height for small devices */
+      #intro {
+        background-image: url("./img/logo.jpg");
+        height: 100vh;
+      }
+      @media (max-width: 991px) {
+              #intro {
+              /* Margin to fix overlapping fixed navbar */
+              margin-top: 45px;
+      	}
+      }
+
+      body html {
+        background-color: rgba(0, 0, 0, 0.2);
+      }
+
+      footer li > a {
+        color: white;
+      }
+    </style>
+    
+    <!-- Navbar -->
+    <nav class="navbar shadow-5-strong navbar-expand-lg bg-light fixed-top" id="nav">
+      <!--Grid row-->
+    
+      <div class="container-fluid">
+        <!--Replace with bulb for toggling between light and dark mode-->
+        <!--a class="nav-link text" role="button">
+          <i class="fa fa-adjust" id="adjust" aria-hidden="true">Adjust</i>
+        </a-->
+        <!--button class="btn nav-link " role="button" id="adjustBtn">
+          <i class="fa fa-moon text-light" id="adjust" aria-hidden="true">Adjust</i>
+        </button-->
+        <a class="nav-link" role="button">
+          <i class="fa fa-moon text-dark" id="adjust" aria-hidden="true"></i>
+        </a>
+        <!--div class="form-check form-switch">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            id="flexSwitchCheckDefault"
+          />
+          <label class="form-check-label" for="flexSwitchCheckDefault"
+            ><small>Transparency</small></label
+          >
+        </div-->
+        <!-- Navbar brand -->
+        <a class="navbar-brand nav-link " target="_blank" href="#">
+          <strong class="primary ">MGREGCHI</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+          aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+          <i id="menu" class="fas fa-bars"></i>
+        </button>
+        <div class="text-light collapse navbar-collapse" id="navbarExample01">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                >Tutorial</a>
+            </li>
+            <!--li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li-->
+            <!-- Navbar dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Projects
+              </a>
+              <!-- Dropdown menu -->
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdown"
+              >
+                <li><a class="dropdown-item" href="#">Mobile</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Desktop</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Web</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Web API</a>
+                </li>                                
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Visual | Graphics designs</a
+                  >
+                </li>
+              </ul>
+            </li>            
+            <li class="nav-item">
+              <a class="nav-link" href="#">Hire me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" >Live test</a>
+            </li>                                  
+          </ul>
+
+          <ul class="navbar-nav d-flex flex-row">
+            <!-- Icons -->
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="#" target="_blank" name="youtube" rel="noopener">Youtube channel
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link"
+              data-mdb-container="body"
+              data-mdb-toggle="popover"
+              data-mdb-placement="top"
+              data-mdb-content="Sorry, I'm not currently using that!"
+              data-mdb-original-title=""
+              title="" name="facebook link" rel="noopener">Facebook page
+                <i class=" fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="https://twitter.com/mgregchi02" target="_blank" rel="noopener">Twitter page
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="nav-item me-3 me-lg-0">
+              <a class="nav-link" href="https://github.com/Mgregchi/" target="_blank" rel="noopener">Github page
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+             
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+    <!--HIRE ME BUTTON-->
+    <div class="fixed-bottom">
+      <div class="text-center">
+        <button class="btn btn-primary m-2" id="hire-me" type="button">HIRE ME</button>  
+        
+      </div>      
+    </div>
+    
+    <!--HIRE ME BUTTON END-->
+    <!-- Background image -->
+    <div id="intro" class="bg-image shadow-2-strong">
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.8);">
+        <div class="container d-flex align-items-center justify-content-center text-center h-100">
+          <div class="text-white">
+            <h1 class="mb-3">Sleek designs and Customized Softwares / Technology
+               services for your <span class="text-info">BUSINESS</span></h1>
+            <h2 class="mb-4">Become a software developer</h2>
+            <h2 class="mb-4">Learn how to Create beautiful Websites and develop Mobile and desktop applications</h2>
+
+            <a class="btn btn-primary btn-lg m-2" href="#" target="_blank"
+              role="button">Enroll here (15% discounts)</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Background image -->
+  </header>
+  <!--Main Navigation-->
+
+  <!--Main layout-->
+  <main class="mt-5">
+    <div class="container">
+      <!--Section: Content-->
+      <section>
+        <div class="row">
+          <div class="col-md-6 gx-5 mb-4">
+            <div class="bg-image hover-overlay ripple shadow-2-strong" data-mdb-ripple-color="light">
+              <img src="./img/logo.jpg" rel="logo" class="img-fluid" />
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </div>
+          </div>
+
+          <div class="col-md-6 gx-5 mb-4">
+            <h3><strong>Overview</strong></h3>
+            <p class="text-muted">
+              Sorry, this site is currently under maintenance.
+              You can still send Me <a href="#email">email</a>
+            </p>
+            <p><strong>Upcoming</strong></p>
+            <p class="text-muted">
+              
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--Section: Content-->
+
+      <hr class="my-5" />
+      <!--Section: Content-->
+      <section class="text-center" hidden>
+        <h4 class="mb-5"><strong>Blog Posts and Tutorials</strong></h4>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="#" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the
+                  card's content.
+                </p>
+                <a href="#!" class="btn btn-primary">Read</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="#" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the
+                  card's content.
+                </p>
+                <a href="#!" class="btn btn-primary">Read</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="#" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the
+                  card's content.
+                </p>
+                <a href="#!" class="btn btn-primary">Read</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Section: Content-->
+
+      <hr class="my-5" />
+
+      <!--Section: Content-->
+      <section class="text-center" hidden>
+        <h1 class="mb-5 text-center"><strong>Newest Projects</strong></h1>
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4">
+            <div class="card bg-dark text-white shadow-1-strong">
+              <img
+                src="#"
+                class="card-img"
+                alt="..."
+              />
+              <div class="card-img-overlay hover-shadow">
+                <h2 class="card-title">Card title</h2>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a
+                  natural lead-in to additional content. This content is a
+                  little bit longer.
+                </p>
+                <p class="card-text">Last updated 3 mins ago</p>
+                <button type="button" class="btn btn-primary">
+                  View
+                </button>                    
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="card bg-dark text-white shadow-1-strong">
+                <img
+                  src="#"
+                  class="card-img"
+                  alt="..."
+                />
+                <div class="card-img-overlay hover-shadow">
+                  <h2 class="card-title">Card title</h2>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a
+                    natural lead-in to additional content. This content is a
+                    little bit longer.
+                  </p>
+                  <p class="card-text">Last updated 3 mins ago</p>
+                  <button type="button" class="btn btn-primary">
+                    View
+                  </button>                    
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <div class="card bg-dark text-white shadow-1-strong">
+                <img
+                  src="#"
+                  class="card-img"
+                  alt="..."
+                />
+                <div class="card-img-overlay hover-shadow">
+                  <h3 class="card-title">Card title</h3>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a
+                    natural lead-in to additional content. This content is a
+                    little bit longer.
+                  </p>
+                  <p class="card-text">Last updated 3 mins ago</p>
+                  <button type="button" class="btn btn-primary">
+                    View
+                  </button>                    
+                </div>
+              </div>
+            </div>
+          </div>
+  
+
+         
+          <!--USE FOR ABATOBI-->
+          <!--div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="https://mdbcdn.b-cdn.net/wp-content/uploads/2020/06/vertical.jpg"
+                  alt="..."
+                  class="img-fluid"
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a
+                    natural lead-in to additional content. This content is
+                    a little bit longer.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted"
+                      >Last updated 3 mins ago</small
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div-->          
+        </div>        
+        <a 
+          class="btn btn-primary text-center"
+          data-mdb-toggle="collapse"
+          href="#collapseExample"
+          role="button"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+        >
+          Subscribe to newsletter
+        </a>
+      
+      <!-- Collapsed content -->
+      <div class="collapse mt-3" id="collapseExample">
+
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12">
+              <div id="more"></div>
+            <div class="col-md-12">
+              <form method="POST" action="https://getform.io/f/72703077-ec49-4706-abd8-6615c4509cb1" class="was-validated">
+                <!-- Name input -->
+                <div class="form-outline mb-4">
+                  <input
+                    type="text"
+                    id="form5Example1"
+                    class="form-control"
+                    autocomplete="off"
+                    style="
+                      background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAUBJREFUOBGVVE2ORUAQLvIS4gwzEysHkHgnkMiEc4zEJXCMNwtWTmDh3UGcYoaFhZUFCzFVnu4wIaiE+vvq6+6qTgthGH6O4/jA7x1OiCAIPwj7CoLgSXDxSjEVzAt9k01CBKdWfsFf/2WNuEwc2YqigKZpK9glAlVVwTTNbQJZlnlCkiTAZnF/mePB2biRdhwHdF2HJEmgaRrwPA+qqoI4jle5/8XkXzrCFoHg+/5ICdpm13UTho7Q9/0WnsfwiL/ouHwHrJgQR8WEwVG+oXpMPaDAkdzvd7AsC8qyhCiKJjiRnCKwbRsMw9hcQ5zv9maSBeu6hjRNYRgGFuKaCNwjkjzPoSiK1d1gDDecQobOBwswzabD/D3Np7AHOIrvNpHmPI+Kc2RZBm3bcp8wuwSIot7QQ0PznoR6wYSK0Xb/AGVLcWwc7Ng3AAAAAElFTkSuQmCC');
+                      background-repeat: no-repeat;
+                      background-attachment: scroll;
+                      background-size: 16px 18px;
+                      background-position: 98% 50%;
+                    "
+                  />
+                  <label
+                    class="form-label"
+                    for="form5Example1"
+                    style="margin-left: 0px"
+                    >Name</label
+                  >
+                  <div class="form-notch">
+                    <div class="form-notch-leading" style="width: 9px"></div>
+                    <div
+                      class="form-notch-middle"
+                      style="width: 42.4px"
+                    ></div>
+                    <div class="form-notch-trailing"></div>
+                  </div>
+                </div>
+
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                  <input
+                    type="email"
+                    id="form5Example2"
+                    class="form-control"
+                    autocomplete="off"
+                    style="
+                      background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAUBJREFUOBGVVE2ORUAQLvIS4gwzEysHkHgnkMiEc4zEJXCMNwtWTmDh3UGcYoaFhZUFCzFVnu4wIaiE+vvq6+6qTgthGH6O4/jA7x1OiCAIPwj7CoLgSXDxSjEVzAt9k01CBKdWfsFf/2WNuEwc2YqigKZpK9glAlVVwTTNbQJZlnlCkiTAZnF/mePB2biRdhwHdF2HJEmgaRrwPA+qqoI4jle5/8XkXzrCFoHg+/5ICdpm13UTho7Q9/0WnsfwiL/ouHwHrJgQR8WEwVG+oXpMPaDAkdzvd7AsC8qyhCiKJjiRnCKwbRsMw9hcQ5zv9maSBeu6hjRNYRgGFuKaCNwjkjzPoSiK1d1gDDecQobOBwswzabD/D3Np7AHOIrvNpHmPI+Kc2RZBm3bcp8wuwSIot7QQ0PznoR6wYSK0Xb/AGVLcWwc7Ng3AAAAAElFTkSuQmCC');
+                      background-repeat: no-repeat;
+                      background-attachment: scroll;
+                      background-size: 16px 18px;
+                      background-position: 98% 50%;
+                    "
+                  />
+                  <label
+                    class="form-label"
+                    for="form5Example2"
+                    style="margin-left: 0px"
+                    >Email address</label
+                  >
+                  <div class="form-notch">
+                    <div class="form-notch-leading" style="width: 9px"></div>
+                    <div
+                      class="form-notch-middle"
+                      style="width: 88.8px"
+                    ></div>
+                    <div class="form-notch-trailing"></div>
+                  </div>
+                </div>
+
+                <!-- Checkbox -->
+                <div class="form-check d-flex justify-content-center mb-4">
+                  <input
+                    class="form-check-input me-2"
+                    type="checkbox"
+                    value=""
+                    id="form5Example3"
+                    checked=""
+                  />
+                  <label class="form-check-label" for="form5Example3">
+                    I have read and agree to the <a href="#">terms</a>
+                  </label>
+                </div>
+
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-primary btn-block mb-4">
+                  Subscribe
+                </button>
+              </form>
+            </div>
+
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-6">
+            <p class="col-md-12">
+            By Subscribing, you'll be able to get early access to my products
+            and services. 
+            Also you will be notified of discounts on products
+            and services.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-6">
+        </div>
+      </div>
+      </section>
+      <!--Section: Content-->
+    </div>
+  </main>
+  <!--Main layout-->
+<br>
+  <!--Footer-->
+  <footer class="bg-dark text-lg-start text-light">
+    <hr class="m-0" />
+    <!--footer class="bg-primary text-white"-->
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h1 class="text-uppercase small">Offers | services</h1>
+            <div id="more"></div>
+            <p>
+              Offering 15% discount on all services.
+              Including :
+            </p>
+            <ul class="list-styled">
+              <li>
+                <a href="#!">Website design and development</a>
+              </li>
+              <li>
+                <a href="#!">Mobile and Desktop applications</a>
+              </li>
+              <li>
+                <a href="#!">SEO, Email and Social media marketing</a>
+              </li>
+              <li>
+                <a href="#!">Computer programming and software development private classes (In-person and online)</a>
+              </li>
+            </ul>            
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h1 class="text-uppercase small">Quick Links</h1>
+
+            <ul class="list-unstyled text-light">
+              <li>
+                <a href="#!">About Mgregchi</a>
+              </li>
+              <li>
+                <a href="#!">Softwares</a>
+              </li>
+              <li>
+                <a href="#!">Contact me</a>
+              </li>
+              <li>
+                <a href="#!">Live test</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <!--div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">External Links</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div-->
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Button trigger modal -->
+      <button
+        type="button"
+        class="btn btn-primary"
+        id="cookie-btn"
+        hidden
+      >
+        Toast
+      </button>
+            <!-- Modal -->
+            <!--div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Modal title
+                    </h5-->
+
+      <!--MODAL ALERT
+        NOW OFFERING PRIVATE SOFTWARE, COMPUTER PROGRAMMING LESSONS FOR TEENS AND ADULTS
+      -->
+
+    <div class="text-center p-2 align-items-center">
+
+                  <!--Section: Social-->
+                  <section class="mb-4" hidden>
+                    <!-- Facebook -->
+                    <a
+                      class="btn btn-primary"
+                      style="background-color: #3b5998"
+                      href="#!"
+                      role="button"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+      
+                    <!-- Twitter -->
+                    <a
+                      class="btn btn-primary"
+                      style="background-color: #55acee"
+                      href="#!"
+                      role="button"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+      
+                    <!-- Google -->
+                    <a
+                      class="btn btn-primary"
+                      style="background-color: #dd4b39"
+                      href="#!"
+                      role="button"
+                      ><i class="fab fa-google"></i
+                    ></a>
+      
+                    <!-- Instagram -->
+                    <a
+                      class="btn btn-primary"
+                      style="background-color: #ac2bac"
+                      href="#!"
+                      role="button"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+      
+                    <!-- Linkedin -->
+                    <a
+                      class="btn btn-primary"
+                      style="background-color: #0082ca"
+                      href="#!"
+                      role="button"
+                      ><i class="fab fa-linkedin-in"></i
+                    ></a>
+      
+                    <!-- Pinterest -->
+                    <a
+                      class="btn btn-primary"
+                      style="background-color: #c61118"
+                      href="#!"
+                      role="button"
+                      ><i class="fab fa-pinterest"></i
+                    ></a>
+      
+     
+                    <!-- Stack overflow -->
+                    <a
+                      class="btn btn-primary"
+                      style="background-color: #ffac44"
+                      href="#!"
+                      role="button"
+                      ><i class="fab fa-stack-overflow"></i
+                    ></a>
+      
+                    <!-- Youtube -->
+                    <a
+                      class="btn btn-primary"
+                      style="background-color: #ed302f"
+                      href="#!"
+                      role="button"
+                      ><i class="fab fa-youtube"></i
+                    ></a>
+      
+                    
+                    <!-- Github -->
+                    <a
+                      class="btn btn-primary"
+                      style="background-color: #333333"
+                      href="#!"
+                      role="button"
+                      ><i class="fab fa-github"></i
+                    ></a>
+      
+  
+                    <!-- Reddit -->
+                    <a
+                      class="btn btn-primary"
+                      style="background-color: #ff4500"
+                      href="#!"
+                      role="button"
+                      ><i class="fab fa-reddit-alien"></i
+                    ></a>
+      
+                    <!-- Whatsapp -->
+                    <a
+                      class="btn btn-primary"
+                      style="background-color: #25d366"
+                      href="#!"
+                      role="button"
+                      ><i class="fab fa-whatsapp"></i
+                    ></a>
+                  </section>
+                  <!--Section: Social-->
+      <p>Find me on social media</p>
+      <a href="#" class="m-1" role="button" 
+        target="_blank" name="mgregchi-youtube-channel" rel="noopener"><span class="badge ms-2" style="background-color: #ed302f"> Youtube channel
+        <i class="fab fa-youtube"></i></span>
+      </a>
+      <!--ADD A MODAL ONLCIK STATING THAT I DON"T USE FACEBOOK TILL FURTHER NOTICE-->
+      <a class=" m-1" role="button"
+        data-mdb-container="body"
+        data-mdb-toggle="popover"
+        data-mdb-placement="top"
+        data-mdb-content="Sorry, I'm not currently using that!"
+        data-mdb-original-title=""
+        title=""   name="mgregchi-facebook-page"  rel="noopener"   
+        ><span class="badge bg-primary ms-2">Facebook page
+        <i class="fab fa-facebook-f"></i></span>
+      </a>
+      <!--Can be used for -->
+      <!--button
+        type="button"
+        class="btn btn-success m-1"
+        data-mdb-container="body"
+        data-mdb-toggle="popover"
+        data-mdb-placement="top"
+        data-mdb-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus."
+        data-mdb-original-title=""
+        title=""
+      >
+        Popover 
+      </button-->
+      <a href="https://twitter.com/mgregchi02" class="m-1" role="button" rel="noopener"
+        target="_blank"><span class="badge-pill badge ms-2" style="background-color: #55acee">Twitter page
+        <i class="fab fa-twitter " ></i></span>
+      </a>
+      <!--class="btn"-->
+      <a href="https://github.com/mgregchi/" class="m-1" role="button" rel="noopener"
+        target="_blank"><span class="badge ms-2 style="background-color: #333333">Github page
+        <i class="fab fa-github"></i></span>
+      </a>
+      <a href="https://wa.me/" class="m-1 hover-shadow" role="button" rel="noopener"
+        target="_blank" 
+        ><span class="ms-2 badge" style="background-color: #25d366">Whatsapp
+        <i class="fab fa-whatsapp" ></i></span>
+      </a>   
+      <a href="mailto:info@mgregchi.tk" id="email" class="m-1 hover-shadow"><span class="ms-2 badge"> <i class="fas fa-envelope fa-lg"></i></a></span>
+
+    </div>
+    <!-- Copyright -->
+    <div class="text-center p-4" >
+      <!--email address encoder-->
+      © 2021 Copyright:
+      <a class="text-light" href="https://mgregchi.tk/">Mgregchi</a>
+    </div>
+    <span class="p-2"></span>
+    <!-- Copyright -->
+  </footer>
+  <!--Footer-->
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript" src="js/processor.js"></script>
+    <!--script src="js/jquery.min.js"></script-->
+    <script>
+      // DATA FROM JSON
+      //$.getJSON("storage/tags.json")
+      /*
+      $.getJSON("storage/tags.json", function( data ) {
+        console.log(data)
+
+        object = JSON.parse(data);
+        var items = [];
+        alert(object.navLinks);
+        $.each( data, function( key, val ) {
+          items.push( "<li id='" + key + "'>" + val + "</li>" );
+        });
+
+        $( "<ul/>", {
+          "class": "my-new-list text-white",
+          html: items.join( "" )
+        }).appendTo($('#more'));
+      });  */
+
+      // fa-moon fa-sun text-dark text-light
+      let adjust = document.getElementById("adjust");
+      let nav = document.getElementById("nav");
+
+      let link = document.all.style
+      var menu = document.getElementById("menu");
+      //adjust.onclick = mode.replace("href", "href='css/mdb.dark.min.css'")
+      //adjust.onclick = console.log("CLICKED");//link.href = "css/mdb.dark.min.css"
+      
+      adjust.onclick = function() {
+        classToggle()
+      }
+
+      function classToggle() {
+        if (adjust.classList.contains("fa-moon")) {
+            link.href = "css/mdb.dark.min.css"
+            adjust.classList.replace("fa-moon", "fa-sun")
+            adjust.classList.replace("text-dark", "text-light");
+            nav.classList.replace("bg-light", "bg-dark");
+            menu.classList.add("text-light")
+        } else if(adjust.classList.contains("fa-sun")) {
+            //link.href = ""
+            adjust.classList.replace("fa-sun", "fa-moon")
+            adjust.classList.replace("text-light", "text-dark")
+            link.href = "css/mdb.min.css"
+            menu.classList.remove("text-light")
+            nav.classList.replace("bg-dark", "bg-light");
+
+
+        } else {
+          link.href =""
+        }
+        /*
+        switch (adjust.classList.contains) {
+          case "loading":
+            // The document is still loading.
+            break;
+          case "interactive":
+            // The document has finished loading. We can now access the DOM elements.
+            // But sub-resources such as scripts, images, stylesheets and frames are still loading.
+            const span = document.createElement("span");
+            span.textContent = "A <span> element.";
+            document.body.appendChild(span);
+            break;
+          case "complete":
+            // The page is fully loaded.
+            console.log("The first CSS rule is: " + document.styleSheets[0].cssRules[0].cssText);
+            break;
+        }        */
+        //alert(elem.classList);
+
+        //elem.classList.remove();
+        //elem.classList.replace("old","show");
+    }      
+    </script>
+  </body>
+</html>
